@@ -1,0 +1,28 @@
+h3
+{
+font-size: 25px !important;
+}
+#take_snap:hover
+{
+background-color: blue;
+}
+canvas
+{
+    animation-name: colour;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes colour
+{
+0%{box-shadow: 1px 1px 15px red;}
+10%{box-shadow: 1px 1px 15px orange;}
+20%{box-shadow: 1px 1px 15px yellow;}
+30%{box-shadow: 1px 1px 15px rgb(0, 78, 0);}
+40%{box-shadow: 1px 1px 15px rgb(0, 182, 0);}
+50%{box-shadow: 1px 1px 15px rgb(0, 255, 98);}
+60%{box-shadow: 1px 1px 15px blue;}
+70%{box-shadow: 1px 1px 15px skyblue;}
+80%{box-shadow: 1px 1px 15px rgb(0, 255, 234);}
+90%{box-shadow: 1px 1px 15px purple;}
+100%{box-shadow: 1px 1px 15px indigo;}
+}
